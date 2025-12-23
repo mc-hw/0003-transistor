@@ -1201,16 +1201,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 38.1) (xy 142.24 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0776d37a-cb7b-4e57-b202-09175d82b5dc")
-	)
-	(wire
-		(pts
 			(xy 157.48 119.38) (xy 142.24 119.38)
 		)
 		(stroke
@@ -1221,13 +1211,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 50.8) (xy 142.24 55.88)
+			(xy 142.24 25.4) (xy 142.24 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17314433-f8ec-4817-9482-c346fbd82623")
+		(uuid "22473640-cf11-45cb-af2c-1f1528da7235")
 	)
 	(wire
 		(pts
@@ -1301,6 +1291,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 38.1) (xy 142.24 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aec93d7-0ffb-4d06-aff5-cceffe330f4f")
+	)
+	(wire
+		(pts
 			(xy 129.54 93.98) (xy 129.54 99.06)
 		)
 		(stroke
@@ -1308,6 +1308,16 @@
 			(type default)
 		)
 		(uuid "68b3feec-a3fd-41f4-b220-7e94bc5c74df")
+	)
+	(wire
+		(pts
+			(xy 142.24 50.8) (xy 142.24 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7944388b-6fd9-421c-ad21-af52dddf5d9f")
 	)
 	(wire
 		(pts
@@ -1963,10 +1973,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "aa5cea84-9b84-4850-927d-4fc7e50fef68")
+			(uuid "aa5cea84-9b84-4850-927d-4fc7e50fef69")
 		)
 		(pin "1"
-			(uuid "3498e1cc-3131-4e9a-a403-f80ed7257f2c")
+			(uuid "3498e1cc-3131-4e9a-a403-f80ed7257f2d")
 		)
 		(instances
 			(project ""
@@ -2034,10 +2044,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8a71ac1d-c32e-4109-afa6-94ff03743e06")
+			(uuid "8a71ac1d-c32e-4109-afa6-94ff03743e07")
 		)
 		(pin "1"
-			(uuid "75af6f71-cb81-4770-b40a-67cdec2fabe8")
+			(uuid "75af6f71-cb81-4770-b40a-67cdec2fabe9")
 		)
 		(instances
 			(project ""
@@ -2058,7 +2068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9942f7df-4f05-45cc-9f90-3e32629f78b0")
-		(property "Reference" "Rc2"
+		(property "Reference" "Rc3"
 			(at 146.05 58.4199 0)
 			(effects
 				(font
@@ -2067,7 +2077,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "5k"
 			(at 146.05 60.9599 0)
 			(effects
 				(font
@@ -2112,7 +2122,7 @@
 		(instances
 			(project ""
 				(path "/5844b835-1eb6-4c7c-b337-4d7d81850260"
-					(reference "Rc2")
+					(reference "Rc3")
 					(unit 1)
 				)
 			)
@@ -2137,7 +2147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+9V"
+		(property "Value" "+10V"
 			(at 71.12 83.82 0)
 			(effects
 				(font
@@ -2186,7 +2196,7 @@
 	)
 	(symbol
 		(lib_id "power:+10V")
-		(at 142.24 38.1 0)
+		(at 142.24 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2195,7 +2205,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1912667-ea3d-4f21-959d-22272d0e5004")
 		(property "Reference" "#PWR02"
-			(at 142.24 41.91 0)
+			(at 142.24 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,16 +2213,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+9V"
-			(at 142.24 33.02 0)
+		(property "Value" "+10V"
+			(at 144.78 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 38.1 0)
+			(at 142.24 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2221,7 +2232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 38.1 0)
+			(at 142.24 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2230,7 +2241,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+10V\""
-			(at 142.24 38.1 0)
+			(at 142.24 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,7 +2250,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1968f924-c1ae-4e2c-9334-d4f169cc5528")
+			(uuid "1968f924-c1ae-4e2c-9334-d4f169cc5529")
 		)
 		(instances
 			(project ""
@@ -2251,7 +2262,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_Variable")
 		(at 142.24 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2259,9 +2270,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cc3987a9-5965-48b3-922e-ed15f9df7e8c")
-		(property "Reference" "Rc1"
-			(at 144.78 45.7199 0)
+		(uuid "c3317124-7799-40b2-87ae-693c9120065b")
+		(property "Reference" "Rc2"
+			(at 146.05 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,8 +2280,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
-			(at 144.78 48.2599 0)
+		(property "Value" "20k"
+			(at 146.05 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2296,8 +2307,78 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Variable resistor"
 			(at 142.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c3c935fc-6fd2-4c16-9f70-cdffcd187755")
+		)
+		(pin "1"
+			(uuid "081a73c6-05d9-40a5-8180-ceca88b6232f")
+		)
+		(instances
+			(project "0003-transistor"
+				(path "/5844b835-1eb6-4c7c-b337-4d7d81850260"
+					(reference "Rc2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 142.24 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc3987a9-5965-48b3-922e-ed15f9df7e8c")
+		(property "Reference" "Rc1"
+			(at 144.78 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 144.78 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.462 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 142.24 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,10 +2455,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "693580e4-fcd3-4886-a04a-f56f5e7dfc86")
+			(uuid "693580e4-fcd3-4886-a04a-f56f5e7dfc87")
 		)
 		(pin "1"
-			(uuid "9606e74e-c417-4412-a5ca-d2b11f87ad0e")
+			(uuid "9606e74e-c417-4412-a5ca-d2b11f87ad0f")
 		)
 		(instances
 			(project ""
